@@ -29,9 +29,8 @@ public class Ejercicio4 {
 
 	private static boolean contenidoHorizontal(char[][] m,char[] v) {
 	
-		boolean contenida=false;
 		
-		for(int i=0;i<m.length && !contenida ;i++) for(int j=0;j<m[0].length && !contenida ;j++) 
+		for(int i=0;i<m.length;i++) for(int j=0;j<m[0].length;j++) 
 			
 			if(m[i][j]==v[0]) {
 				
@@ -48,7 +47,7 @@ public class Ejercicio4 {
 			}
 		
 		
-		return contenida;	
+		return false;	
 	}
 	
 }
