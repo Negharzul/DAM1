@@ -4,11 +4,11 @@ public class Ejercicio4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		/*Desarrolle el método
-private static boolean contenidoHorizontal(char[][] m, char[] v);
-que indica si la palabra contenida en el vector v está contenida horizontalmente (leída
-de derecha a izquierda o de izquierda a derecha) en la sopa de letras m.*/
+		private static boolean contenidoHorizontal(char[][] m, char[] v);
+		que indica si la palabra contenida en el vector v está contenida horizontalmente (leída
+		de derecha a izquierda o de izquierda a derecha) en la sopa de letras m.*/
 	
 		boolean contenida;
 		char[][] Antes={ 
