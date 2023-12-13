@@ -4,6 +4,12 @@ public class Ejercicio4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		/*Desarrolle el método
+private static void imprimirApariciones (int[] datos);
+que muestra al usuario un informe indicando cada uno de los números que aparece en
+el vector y las veces que aparece.*/
+	
 		boolean contenida;
 		char[][] Antes={ 
 				{'M','E','S','A'},
