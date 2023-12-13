@@ -7,7 +7,16 @@ public class Ejercicio3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
       
-		Scanner sc=new Scanner(System.in);
+      /*De manera estructurada, utilizando métodos, desarrolle un juego basado
+en adivinar un número entre 20 y 80 elegido al azar por el programa. El
+usuario dispondrá de un máximo de seis intentos. Si el usuario introduce
+un número fuera del rango, el programa le permitirá rectificar sin contar
+ese intento. El programa acabará cuando el usuario agote sus intentos o
+acierte el número. A cada fallo del usuario, el programa indicará si el
+número a adivinar es mayor o menor que el introducido. Tras acabar, el
+jugador tendrá la oportunidad de volver a jugar. Al finalizar, el programa
+informará al usuario del resultado final del juego.*/
+		
 		int numAleatorio=generarNumero();
 		int intentos=0;
 		boolean victoria=false;
@@ -17,7 +26,6 @@ public class Ejercicio3 {
 			comprobarFallos(intentos,victoria);
 		}while(intentos<6 && victoria==false);
 		resultadoFinal(victoria);
-		sc.close();
 		
 	}
 	public static int generarNumero() {
