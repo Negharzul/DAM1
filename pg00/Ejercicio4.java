@@ -6,9 +6,9 @@ public class Ejercicio4 {
 		// TODO Auto-generated method stub
 		
 		/*Desarrolle el método
-private static void imprimirApariciones (int[] datos);
-que muestra al usuario un informe indicando cada uno de los números que aparece en
-el vector y las veces que aparece.*/
+private static boolean contenidoHorizontal(char[][] m, char[] v);
+que indica si la palabra contenida en el vector v está contenida horizontalmente (leída
+de derecha a izquierda o de izquierda a derecha) en la sopa de letras m.*/
 	
 		boolean contenida;
 		char[][] Antes={ 
