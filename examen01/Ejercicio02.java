@@ -7,6 +7,9 @@ public class Ejercicio02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+
+		//implementa el metodo private static int[] datosPositivos(int[] datos){ que devuelve un array del tamaño minimo necesario que devuelve unicamente los valores positivos del array parametro.
+		
 		//considero el 0 negativo.
 		int[] numeros=new int[] {1,2,3,-1,-2,5,5,-4,7,20,13,-7};
 		
