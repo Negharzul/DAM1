@@ -5,7 +5,8 @@ public class Ejercicio01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
+
+		//implementa el metodo private static int palabrasMatriz(char[][] m, String[] palabras) que cuenta cuales de las palabras estan contenidas en el array de caracteres.
 		char[][] pruebaGrande= new char[][] {
 			{'M','E','S','A'},
 			{'C','A','S','A'},
